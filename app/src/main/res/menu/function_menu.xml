@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Personal Center"
+        app:showAsAction="never">
+
+    </item>
+    <item android:title="Download List"
+        android:id="@+id/download_list"></item>
+
+    <item android:title="Setting"
+        android:id="@+id/setting"></item>
+    <item android:title="Add friends"
+        android:id="@+id/add_friend"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        app:showAsAction="always"></item>
+
+</menu>

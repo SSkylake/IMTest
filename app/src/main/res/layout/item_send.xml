@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/chat_height"
+    android:layout_margin="10dp"
+    android:gravity="end"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/send_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="@dimen/normal_padding"
+        android:textSize="@dimen/text_size_small" />
+
+    <TextView
+        android:id="@+id/send_text"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/chat_height"
+        android:layout_marginEnd="@dimen/wide"
+        android:background="@drawable/shape_send"
+        android:gravity="center"
+        android:padding="@dimen/wide"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size" />
+
+    <ImageView
+        android:id="@+id/send_head"
+        android:layout_width="@dimen/chat_height"
+        android:layout_height="@dimen/chat_height"
+        android:src="@mipmap/ic_launcher_round" />
+
+
+</LinearLayout>
